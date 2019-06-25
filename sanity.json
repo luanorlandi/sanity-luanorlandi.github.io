@@ -1,0 +1,23 @@
+{
+  "root": true,
+  "project": {
+    "name": "sanity-luanorlandi"
+  },
+  "api": {
+    "projectId": "7mx78yct",
+    "dataset": "production"
+  },
+  "plugins": [
+    "@sanity/base",
+    "@sanity/components",
+    "@sanity/default-layout",
+    "@sanity/default-login",
+    "@sanity/desk-tool"
+  ],
+  "parts": [
+    {
+      "name": "part:@sanity/base/schema",
+      "path": "./schemas/schema.js"
+    }
+  ]
+}
